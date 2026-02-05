@@ -1,0 +1,58 @@
+/* pretendard */
+@font-face{
+	font-family: 'Pretendard';
+	font-weight: 800;
+	src: url('../font/Pretendard-ExtraBold.woff2') format('woff2');
+}
+@font-face{
+	font-family: 'Pretendard';
+	font-weight: 700;
+	src: url('../font/Pretendard-Bold.woff2') format('WOFF2')
+}
+@font-face{
+	font-family: 'Pretendard';
+	font-weight: 600;
+	src: url('../font/Pretendard-SemiBold.woff2') format('WOFF2')
+}
+@font-face{
+	font-family: 'Pretendard';
+	font-weight: 500;
+	src: url('../font/Pretendard-Medium.woff2') format('WOFF2')
+}
+@font-face{
+	font-family: 'Pretendard';
+	font-weight: 400;
+	src: url('../font/Pretendard-Regular.woff2') format('WOFF2')
+}
+
+/* suit */
+@font-face {
+	font-family: 'SUIT';
+	font-weight: 400;
+	src: url('../font/SUIT-Regular.woff2') format('woff2');
+}
+@font-face {
+	font-family: 'SUIT';
+	font-weight: 500;
+	src: url('../font/SUIT-Medium.woff2') format('woff2');
+}
+@font-face {
+	font-family: 'SUIT';
+	font-weight: 600;
+	src: url('../font/SUIT-SemiBold.woff2') format('woff2');
+}
+@font-face {
+	font-family: 'SUIT';
+	font-weight: 700;
+	src: url('../font/SUIT-Bold.woff2') format('woff2');
+}
+@font-face {
+	font-family: 'SUIT';
+	font-weight: 800;
+	src: url('../font/SUIT-ExtraBold.woff2') format('woff2');
+}
+@font-face {
+	font-family: 'SUIT';
+	font-weight: 900;
+	src: url('../font/SUIT-Heavy.woff2') format('woff2');
+}
