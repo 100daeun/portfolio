@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Focuseed</title>
+
+  <!-- 검색 -->
+  <meta name="keywords" content="Focuseed">
+  <meta name="description" content="집중의 루틴을 설계하다, 포커씨드">
+
+  <!-- og -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Focuseed">
+  <meta property="og:url" content="http://www.focuseed.com">
+  <meta property="og:image" content="images/common/og.jpg">
+  <meta property="og:description" content="집중의 루틴을 설계하다, 포커씨드">
+
+  <!-- favicon -->
+  <link rel="shortcut icon" href="images/common/favicon.png" type="image/x-icon">
+
+  <!-- font -->
+  <link rel="stylesheet" href="css/font.css">
+
+  <!-- css -->
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/swiper-bundle.min.css">
+  <link rel="stylesheet" href="css/aos.css">
+  <link rel="stylesheet" href="css/common.css">
+  <link rel="stylesheet" href="css/main.css">
+
+  <!-- js -->
+  <script src="js/jquery-3.7.1.min.js"></script>
+  <script src="js/swiper-bundle.min.js"></script>
+  <script src="js/aos.js"></script>
+  <script defer src="js/common.js"></script>
+  <script defer src="js/main.js"></script>
+</head>
+
+<body>
+  <header id="header">
+    <div class="inner">
+      <h1><a href="index.html"><img src="images/common/logo.png" alt="포커씨드"></a></h1>
+
+      <nav>
+        <ul class="gnb">
+          <li><a href="#brand">brand</a></li>
+          <li><a href="#product">product</a></li>
+          <li><a href="sub/routine_01.html">routine lab</a>
+            <ul class="depth2">
+              <li><a href="sub/routine_01.html">루틴 진단</a></li>
+              <li><a href="sub/routine_01.html">루틴 기록</a></li>
+              <li><a href="sub/routine_01.html">성장 그래프</a></li>
+            </ul>
+          </li>
+          <li><a href="sub/focus_01.html">focus score</a>
+            <ul class="depth2">
+              <li><a href="sub/focus_01.html">오늘의 집중 점수</a></li>
+              <li><a href="sub/focus_01.html">성장 리포트</a></li>
+            </ul>
+          </li>
+        </ul>
+
+        <div class="mgnb_wrap">
+          <div class="line"></div>
+          <ul class="mgnb">
+            <li><a href="#brand">brand</a></li>
+            <li><a href="#product">product</a></li>
+            <li><a href="sub/routine_01.html">routine lab</a>
+              <ul class="mdepth2">
+                <li><a href="sub/routine_01.html">루틴 진단</a></li>
+                <li><a href="sub/routine_01.html">루틴 기록</a></li>
+                <li><a href="sub/routine_01.html">성장 그래프</a></li>
+              </ul>
+            </li>
+            <li><a href="sub/focus_01.html">focus score</a>
+              <ul class="mdepth2">
+                <li><a href="sub/focus_01.html">오늘의 집중 점수</a></li>
+                <li><a href="sub/focus_01.html">성장 리포트</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+      <div class="util">
+        <button class="btn_cart">장바구니</button>
+        <button class="btn_page">마이페이지</button>
+        <button class="btn_sitemap">메뉴열기</button>
+      </div>
+    </div>
+
+    <div class="depth2_bg"></div>
+  </header>
+
+  <div class="depth2_black_bg"></div>
+
+  <main id="main">
+    <section class="banner">
+      <h3><img src="images/main/visual_logo.png" alt="포커씨드"></h3>
+      <div class="swiper banner_list">
+        <ul class="swiper-wrapper">
+          <li class="swiper-slide">
+            <div class="banner_txt">
+              <dl>
+                <dt>집중의 루틴을 설계하다</dt>
+                <dd>공부도 체력이다, 집중력도 설계할 수 있습니다</dd>
+              </dl>
+              <a href="sub/prd.html" class="btn_move">제품 알아보기</a>
+            </div>
+          </li>
+
+          <li class="swiper-slide">
+            <div class="banner_txt">
+              <dl>
+                <dt>오늘의 집중 흐름을 그려내다</dt>
+                <dd>당신의 하루 집중력 패턴을 한 장의 그래프로 표현했습니다</dd>
+              </dl>
+              <a href="sub/focus_01.html" class="btn_move">집중 흐름 확인하기</a>
+            </div>
+          </li>
+        </ul>
+
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+
+        <div class="control">
+          <div class="custom-pagination-wrapper">
+            <div class="custom-bar">
+              <div class="custom-bar-fill" id="progressFill"></div>
+            </div>
+          </div>
+          <div class="swiper-pagination"></div>
+          <div class="pause">슬라이드 일시정지</div>
+          <div class="play">슬라이드 자동재생</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="story padding_180">
+      <div class="inner" id="brand">
+        <div data-aos="fade-up">
+          <h4><img src="images/main/story_txt.png" alt="스토리타이틀"></h4>
+          <p><span>Focuseed</span>는 '하루의 루틴' 속에서 집중력을 길러가는
+            <br>퍼포먼스 뉴트리션 브랜드입니다
+          </p>
+        </div>
+
+        <ul class="story_txt" data-aos="fade-up" data-aos-delay="500">
+          <li>몸이 깨어나며 <br>집중력이 상승합니다</li>
+          <li>
+            <strong>'포커스부스터'</strong> 섭취 후 <br>집중력이 점차 상승합니다
+          </li>
+          <li>최적의 집중 구간에 <br>진입합니다</li>
+        </ul>
+
+        <ul class="story_txt_mobile">
+          <li>1구간</li>
+          <li>2구간</li>
+          <li>3구간</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="prd padding_180">
+      <div class="inner">
+        <div class="prd_title" data-aos="fade-up" id="product">
+          <h2>find your focus</h2>
+          <a href="sub/prd.html" class="btn_more">제품 알아보기</a>
+        </div>
+
+        <div class="card_list" data-aos="fade-up" data-aos-delay="500">
+          <div class="card_container">
+            <div class="card_inner">
+              <div class="card_front">
+                <img src="images/main/prd1.png" alt="포커스부스터">
+                <p>#집중의 시작 #집중력향상</p>
+              </div>
+              <div class="card_back cb_prd1">
+                <img src="images/main/prd1_b_graph.png" alt="포커스부스터그래프">
+                <dl>
+                  <dt>아침 집중력 스타트 업</dt>
+                  <dd>섭취 전 보다 더 빠르게,
+                    <br>더 높게 올라가는 집중력 곡선
+                  </dd>
+                </dl>
+                <a href="sub/prd.html" class="btn_move_m bm_prd1">제품 알아보기</a>
+              </div>
+            </div>
+            <span class="booster">focus booster</span>
+          </div>
+
+          <div class="card_container">
+            <div class="card_inner">
+              <div class="card_front">
+                <img src="images/main/prd2.png" alt="포커스리차지">
+                <p>#집중의 지속 #두뇌 리셋</p>
+              </div>
+              <div class="card_back cb_prd2">
+                <img src="images/main/prd2_b_graph.png" alt="포커스리차지그래프">
+                <dl>
+                  <dt>오후 집중력 리바운드</dt>
+                  <dd>오후 하락 구간을
+                    <br>부드럽게 완충하는 안정 곡선
+                  </dd>
+                </dl>
+                <a href="sub/prd.html" class="btn_move_m bm_prd2">제품 알아보기</a>
+              </div>
+            </div>
+            <span class="recharge">focus recharge</span>
+          </div>
+
+          <div class="card_container">
+            <div class="card_inner">
+              <div class="card_front">
+                <img src="images/main/prd3.png" alt="포커스밸런스">
+                <p>#수면 질 향상 #회복 루틴</p>
+              </div>
+              <div class="card_back cb_prd3">
+                <img src="images/main/prd3_b_graph.png" alt="포커스밸런스그래프">
+                <dl>
+                  <dt>밤 컨디션 밸런싱</dt>
+                  <dd>불필요한 각성은 줄이고
+                    <br>편안한 회복 리듬을 만드는 곡선
+                  </dd>
+                </dl>
+                <a href="sub/prd.html" class="btn_move_m bm_prd3">제품 알아보기</a>
+              </div>
+            </div>
+            <span class="balance">focus balance</span>
+          </div>
+        </div><!-- card_list -->
+      </div>
+    </section>
+
+    <section class="about">
+      <div class="inner">
+        <div class="about_top" data-aos="fade-up">
+          <h2>about
+            <br>your routine
+          </h2>
+        </div>
+        <div class="about_bottom" data-aos="fade-up" data-aos-delay="500">
+          <div>
+            <p>당신의 하루는 어떤 리듬으로 흐르고 있나요?
+              <br>오늘의 루틴을 설계해 보세요
+            </p>
+            <p>* 루틴을 기록하면 '오늘의 집중 점수'가 생성됩니다</p>
+          </div>
+          <a href="sub/routine_01.html" class="btn_more">루틴 설계해보기</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="review padding_180">
+      <div class="inner">
+        <div class="title" data-aos="fade-up">
+          <h2>with<br>focuseed</h2>
+          <a href="sub/prd.html" class="btn_more">리뷰 살펴보기</a>
+        </div>
+
+        <div class="review_list">
+          <div>
+            <div class="review_item" data-aos="fade-up">
+              <a href="sub/prd.html">
+                <div class="image_wrapper">
+                  <img src="images/main/review1.png" alt="리뷰">
+                </div>
+                <dl>
+                  <dt>포커씨드 루틴 덕분에 오전 집중력이 확 올라요. 오후 피로도 관리가 편해졌습니다!</dt>
+                  <dd>전○용 <span>| 포커스 부스터 섭취</span></dd>
+                </dl>
+              </a>
+            </div>
+
+            <div class="review_item" data-aos="fade-up">
+              <a href="sub/prd.html">
+                <div class="swiper review_item_list review-swiper-2">
+                  <ul class="swiper-wrapper">
+                    <li class="swiper-slide">
+                      <img src="images/main/review4-1.png" alt="리뷰">
+                    </li>
+                    <li class="swiper-slide">
+                      <img src="images/main/review4-2.png" alt="리뷰">
+                    </li>
+                  </ul>
+                  <div class="swiper-pagination"></div>
+                </div>
+                <dl>
+                  <dt>루틴 입력 후 점수 변화를 보는 게 동기 부여가 참 많이 됩니다</dt>
+                  <dd>이○재 <span>| 포커스 리차지, 밸런스 섭취</span></dd>
+                </dl>
+              </a>
+            </div>
+          </div>
+
+          <div>
+            <div class="review_item" data-aos="fade-up">
+              <a href="sub/prd.html">
+                <div class="swiper review_item_list review-swiper-4">
+                  <ul class="swiper-wrapper">
+                    <li class="swiper-slide">
+                      <img src="images/main/review2-1.png" alt="리뷰">
+                    </li>
+                    <li class="swiper-slide">
+                      <img src="images/main/review2-2.png" alt="리뷰">
+                    </li>
+                    <li class="swiper-slide">
+                      <img src="images/main/review2-3.png" alt="리뷰">
+                    </li>
+                  </ul>
+                  <div class="swiper-pagination"></div>
+                </div>
+                <dl>
+                  <dt>아침 캡슐, 오후 젤리, 밤 티까지 섭취 후 루틴을 기록하니 하루 공부 패턴이 한눈에 보여요</dt>
+                  <dd>석○경 <span>| 포커스 부스터, 리차지, 밸런스 섭취</span></dd>
+                </dl>
+              </a>
+            </div>
+
+            <div class="review_item" data-aos="fade-up">
+              <a href="sub/prd.html">
+                <div class="swiper review_item_list review-swiper-4">
+                  <ul class="swiper-wrapper">
+                    <li class="swiper-slide">
+                      <img src="images/main/review5-1.png" alt="리뷰">
+                    </li>
+                    <li class="swiper-slide">
+                      <img src="images/main/review5-2.png" alt="리뷰">
+                    </li>
+                  </ul>
+                  <div class="swiper-pagination"></div>
+                </div>
+                <dl>
+                  <dt>친구와 루틴을 경쟁하듯 즐기고 있어요 🤠💪💪</dt>
+                  <dd>김○태 <span>| 포커스 부스터, 리차지 섭취</span></dd>
+                </dl>
+              </a>
+            </div>
+          </div>
+
+          <div>
+            <div class="review_item" data-aos="fade-up">
+              <a href="sub/prd.html">
+                <div class="image_wrapper">
+                  <img src="images/main/review3.png" alt="리뷰">
+                </div>
+                <dl>
+                  <dt>나이트 밸런스 티 덕분에 숙면 루틴도 자연스럽게 잡혔습니다. 강추에요 🤟</dt>
+                  <dd>한○석 <span>| 포커스 밸런스 섭취</span></dd>
+                </dl>
+              </a>
+            </div>
+
+            <div class="review_item" data-aos="fade-up">
+              <a href="sub/prd.html">
+                <div class="swiper review_item_list review-swiper-6">
+                  <ul class="swiper-wrapper">
+                    <li class="swiper-slide">
+                      <img src="images/main/review6-1.png" alt="리뷰">
+                    </li>
+                    <li class="swiper-slide">
+                      <img src="images/main/review6-2.png" alt="리뷰">
+                    </li>
+                    <li class="swiper-slide">
+                      <img src="images/main/review6-3.png" alt="리뷰">
+                    </li>
+                  </ul>
+                  <div class="swiper-pagination"></div>
+                </div>
+                <dl>
+                  <dt>주간 루틴 기록 후 점수 확인하는 재미가 쏠쏠해요! 루틴 설계가 습관이 되어 버렸답니다! 😍</dt>
+                  <dd>민○해 <span>| 포커스 부스터, 리차지, 밸런스 섭취</span></dd>
+                </dl>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div data-aos="zoom-in-up">
+      <a href="sub/routine_01.html" class="focus">오늘의 집중 루틴을 심으세요!</a>
+    </div>
+  </main>
+
+
+  <footer id="footer">
+    <div class="footer_logo">
+      <img src="images/common/logo_w.png" alt="포커씨드">
+    </div>
+    <address>
+      <div class="info_line">
+        <span>사업자등록번호: 123-45-67890 [사업자정보확인]</span>
+        <span>주소: 부산 부산진구 중앙대로 708 부산파이낸스센터</span>
+        <span>대표자: 백씨앗, 전대지</span>
+      </div>
+      <div class="info_line">
+        <span>통신판매업 신고번호: 제3025-부산진-0123호</span>
+        <span>개인정보관리책임자: 아이티</span>
+      </div>
+      <div class="info_line">
+        <span>고객센터: 070-1234-5678 | 상담시간: 10:00 ~ 19:00(주말 및 공휴일 휴무)</span>
+      </div>
+    </address>
+  </footer>
+
+  <a href="#" class="gotop"><img src="images/common/gotop.png" alt="맨위로가기"></a>
+</body>
+
+</html>
