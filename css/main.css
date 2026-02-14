@@ -574,7 +574,7 @@
 /* contact */
 .contact{padding: 50px 30px; color: #fff; text-align: center; background: #F8F7F3; position: relative;}
 .contact .contact_bg{background: #222426 url(../img/main/contact_bg.png) no-repeat center/contain; border-radius: 80px; height: 85vh;}
-.contact .goal{position: absolute; left: 50%; top: 50%; transform: translate(-50%, -50%); width: 50%;}
+.contact .goal{position: absolute; left: 50%; top: 50%; transform: translate(-50%, -55%); width: 50%;}
 .contact .goal .split{overflow: hidden; display: block; font-size: 4rem; letter-spacing: -1px; padding: 50px 0; word-break: keep-all;}
 .contact .goal .split .line{display: block; overflow: hidden;}
 .contact .goal .btn{display: flex; justify-content: center;}
@@ -614,7 +614,7 @@
 
 @media (max-width: 600px){
   .contact{padding: 50px 10px 20px;}
-  .contact .goal {transform: translate(-50%, -40%); width: 80%;}
+  .contact .goal {transform: translate(-50%, -50%); width: 80%;}
   .contact .goal .split{font-size: 2rem;}
 }
 
