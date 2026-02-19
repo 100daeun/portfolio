@@ -111,7 +111,7 @@ $(window).on('scroll', function () {
 });
 
 // gotop 클릭 이벤트
-$('.gotop_btn').on('click', function () {
+$('.gotop_btn, .footer_gotop').on('click', function () {
   lenis.scrollTo(0, {
     duration: 1.2
   });

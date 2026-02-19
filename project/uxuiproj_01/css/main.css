@@ -483,18 +483,18 @@ h2{font-family: var(--sub-font); text-transform: uppercase; font-size: 5rem; let
   .focus{font-size: 3rem; padding: 30px 200px;}
 }
 
-@media (max-width: 1280px){
+@media (max-width: 1200px){
   .focus{font-size: 2.5rem; padding: 20px 130px;}
 }
 
-@media (max-width: 1023px){
+@media (max-width: 1024px){
   .focus{margin: 0 auto 150px; font-size: 2rem; padding: 18px 100px; border: #66a492 3px solid;}
 }
 
-@media (max-width: 550px){
+@media (max-width: 600px){
   .focus{padding: 18px 50px;}
 }
 
-@media (max-width: 400px){
+@media (max-width: 480px){
   .focus{font-size: 1.8; padding: 15px 40px; margin: 0 auto 100px;}
 }

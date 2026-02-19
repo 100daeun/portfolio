@@ -140,15 +140,14 @@ body{font-family: var(--main-font); font-size: 1.6rem; line-height: 1.5; color: 
   #footer .footer_logo img{width: 90px;}
 }
 
-.gotop{position: fixed; right: 40px; bottom: 40px; z-index: 1; display: none; transition: all 0.5s;}
+.gotop{position: fixed; right: 1%; bottom: 40px; z-index: 1; display: none; transition: all 0.5s;}
 .gotop:hover{transform: rotate(360deg);}
 
 @media (max-width: 1400px){
-  .gotop{right: 15px;}
   .gotop img{width: 80px; height: 80px;}
 }
 
-@media (max-width: 1024px){
-  .gotop{right: 10px; bottom: 20px;}
+@media (max-width: 768px){
+  .gotop{bottom: 20px;}
   .gotop img{width: 60px; height: 60px;}
 }
