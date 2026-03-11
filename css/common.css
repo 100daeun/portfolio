@@ -97,7 +97,7 @@ body.noscroll{overflow: hidden; height: 100vh; width: 100%; height: 100%;}
 #footer .footer_top{display: grid; grid-template-columns: 3fr 1fr 1fr;}
 #footer .footer_top ul li a{font-size: 3rem; padding-bottom: 20px; display: block; transition: all 0.5s;}
 #footer .footer_top ul li:hover a{opacity: 0.5;}
-#footer .footer_top ul li .footer_gotop{font-size: 3rem; padding-bottom: 20px; display: block; transition: all 0.5s; background: transparent; cursor: pointer;}
+#footer .footer_top ul li .footer_gotop{font-size: 3rem; padding-bottom: 20px; transition: all 0.5s; background: transparent; cursor: pointer;}
 #footer .footer_top ul li:hover .footer_gotop{opacity: 0.5;}
 #footer .footer_top ul li:last-child a{padding-bottom: 0;}
 #footer .footer_bottom{display: flex; justify-content: space-between; align-items: center; padding-top: 100px;}
@@ -147,8 +147,9 @@ body.noscroll{overflow: hidden; height: 100vh; width: 100%; height: 100%;}
 @media (max-width: 768px){
   #footer{padding: 0 20px 30px;}
   #footer .footer_bg{border-radius: 40px; padding: 40px 0 35px;}
-  #footer .footer_top{display: block; text-align: center;}
+  #footer .footer_top{display: block;}
   #footer .footer_top .gnb{padding-bottom: 30px;}
+   #footer .footer_top ul li{text-align: center;}
   #footer .footer_top ul li a, #footer .footer_top ul li .footer_gotop{font-size: 1.6rem; padding-bottom: 8px;}
   #footer .footer_bottom{display: grid; grid-template-columns: 1fr 1fr; padding-top: 25px;}
   #footer .footer_bottom .copyright {transform: translateY(0);}
